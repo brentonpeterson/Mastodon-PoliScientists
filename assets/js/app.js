@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 /**
  * Fetches the users.csv file from the server and returns the parsed CSV data
  *
- * @return  {Array<{ account: string, link: string, name: string }>}  A multi-dimensional array containing the parsed CSV file contents.
+ * @return  {Array<{ account: string, link: string, name: string, keywords: string }>}  A multi-dimensional array containing the parsed CSV file contents.
  */
 async function getCSVData () {
   // Fetch the CSV file
@@ -65,7 +65,7 @@ async function getCSVData () {
   // Retrieve the file contents as plain text
   const data = await response.text()
   // Parse them into a multi-dimensional array of objects. In our case:
-  // Array<{ account: string, link?: string, name: string }>
+  // Array<{ account: string, link?: string, name: string, keywords: string }>
   const parsedData = Papa.parse(data, { header: true })
 
   return parsedData.data.filter(function (user) {
@@ -107,7 +107,7 @@ function createFullCSV () {
 /**
  * Builds a form from the CSV data for people to select accounts
  *
- * @param   {Array<{ account: string, link: string, name: string }>}  users  The parsed CSV data
+ * @param   {Array<{ account: string, link: string, name: string, keywords: string }>}  users  The parsed CSV data
  */
 function buildUserSelectionForm (users) {
   const container = userListWrapper()
@@ -191,7 +191,7 @@ function generateCSV () {
 /**
  * Displays a simple copy-and-paste list from the CSV data
  *
- * @param   {Array<{ account: string, link: string, name: string }>}  users  The parsed CSV data
+ * @param   {Array<{ account: string, link: string, name: string, keywords: string }>}  users  The parsed CSV data
  */
 function buildSimpleList (users) {
   const container = userListWrapper() // ul element
