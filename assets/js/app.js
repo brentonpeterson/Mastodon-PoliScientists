@@ -152,7 +152,7 @@ function buildUserSelectionForm (users) {
 	
     const topics = document.createElement('topics')
     topics.setAttribute('for', user.account)	
-    topics.textContent = user.keywords
+    topics.textContent = ` - focus: ${user.keywords}`
     wrapper.appendChild(topics)
 
     container.appendChild(wrapper)
