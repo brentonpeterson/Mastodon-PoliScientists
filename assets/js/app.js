@@ -65,7 +65,7 @@ async function getCSVData () {
   // Retrieve the file contents as plain text
   const data = await response.text()
   // Parse them into a multi-dimensional array of objects. In our case:
-  // Array<{ account: string, link?: string, name: string, keywords: string }>
+  // Array<{ account: string, link: string, name: string, keywords: string }>
   const parsedData = Papa.parse(data, { header: true })
 
   return parsedData.data.filter(function (user) {
@@ -144,11 +144,16 @@ function buildUserSelectionForm (users) {
 
     if ('link' in user && user.link.trim() !== '') {
       const profileLink = document.createElement('a')
-      profileLink.textContent = user.link.replace('https://', '')
+	  profileLink.textContent = user.link.replace(/.*/, 'Profile')
       profileLink.setAttribute('href', user.link)
       profileLink.setAttribute('target', '_blank')
       wrapper.appendChild(profileLink)
     }
+	
+    const topics = document.createElement('topics')
+    topics.setAttribute('for', user.account)	
+    topics.textContent = ` - focus: ${user.keywords}`
+    wrapper.appendChild(topics)
 
     container.appendChild(wrapper)
   }
