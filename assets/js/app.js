@@ -144,8 +144,7 @@ function buildUserSelectionForm (users) {
 
     if ('link' in user && user.link.trim() !== '') {
       const profileLink = document.createElement('a')
-	  profileLink.textContent = user.link.replace('https://', '')
-	  profileLink.setAttribute('data-title', 'Profile')
+	  profileLink.textContent = user.link.replace(/.*?/, 'Profile')
       profileLink.setAttribute('href', user.link)
       profileLink.setAttribute('target', '_blank')
       wrapper.appendChild(profileLink)
