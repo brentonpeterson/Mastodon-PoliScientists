@@ -1,4 +1,27 @@
 account,name,link,keywords
+@caterinafroio@mastodon.uno,Caterina Froio,https://mastodon.uno/@caterinafroio,Political conflict; Social movements; Digital media; Right-wing extremism & populism
+@desrias@home.social,Enrique Desmond Arias,https://home.social/@desrias,Crime and violence in Latin America and the Caribbean; Comparative Politics
+@martineznourdin@sciences.social,Christopher A. Martinez,https://sciences.social/@martineznourdin,presidential & executive politics; government crises; Latin America; comparative politics
+@sarahengler@sciences.social,Sarah Engler,https://sciences.social/@sarahengler,Comparative Politics
+@hagerali@sciences.social,Hager Ali,Https://sciences.social/@hagerali,Authoritarianism; regime stability; civil-military relations
+@downeydavia@mastodon.world,Davia Downey,https://mastodon.world/@DowneyDavia,Federalism; Disaster Management; Urban Policy
+@thchau@mastodon.world,Tak-Huen Chau,https://mastodon.world/@thchau,formal theory; comparative politics; behavior; social identity; nationalism; East Asia
+@brueckmann@fediscience.org,G. Brückmann,Https://fediscience.org/@brueckmann,Energy policy; public acceptance; transport policy; climate policy; behaviour
+@elinbja@mastodon.nu,Elin Bjarnegård,https://mastodon.nu/@elinbja,gender; institutions; authoritarianism; political violence; corruption; masculinities
+@notstevenwhite@mastodon.social,Steven White,https://mastodon.social/@notstevenwhite,American political development; race and politics
+@AntValentim@sciences.social,António Valentim,https://sciences.social/@AntValentim,Comparative politics: Political behaviour; political elites; environmental politics.
+@Bram_Wauters@mastodon-belgium.be,Bram Wauters,https://mastodon-belgium.be/@Bram_Wauters,political parties; elections; diversity; participation
+@patrick@sciences.social,Patrick Theiner,https://sciences.social/@patrick,international relations; comparative regionalism; global health; international sports
+@sandersandrew@mastodon.scot,Andrew Sanders,https://mastodon.scot/@sandersandrew,Terrorism and Political Violence; Irish Politics; US politics
+@IsabelLaterzo@mastodon.social,Isabel Laterzo,https://mastodon.social/@IsabelLaterzo,Comparative Politics; Violence & Public Security; Latin America; Mixed Methods
+@helgej_@mas.to,Helge Jörgens,https://mas.to/@helgej_,environmental policy; climate policy; policy analysis; international public administration
+@lenka_drazanova@sciences.social,Lenka Dražanová,https://sciences.social/@lenka_drazanova,Public opinion; attitudes formation; political socialization; quantitative methods
+@sumitra@mstdn.social,Sumitra Badrinathan,https://mstdn.social/@sumitra,Misinformation; South Asia; Experiments; Political Behavior; Polarization
+@owasow@mastodon.social,Omar Wasow,https://mastodon.social/@owasow,Race and Ethnic Politics
+@cw_powi@mastodon.social,L. Constantin Wurthmann,https://mastodon.social/@cw_powi,Voting Behavior; Political Representation; LGBTQ; Coalition Preferences; Political Parties
+@mmvanditmars@fediscience.org,Mathilde van Ditmars,https://fediscience.org/@mmvanditmars,political sociology; political behaviour; political socialization; gender & politics
+@DylanODriscoll@sciences.social,Dylan O'Driscoll,https://sciences.social/@DylanODriscoll,Peace and Conflict
+@nikolaschmidt@mastodon.world,Nikola Schmidt,https://mastodon.world/@nikolaschmidt,science and technology politics; global governance; space policy; planetary defense;
 @Jessandtech@mastodon.social,Jessica Percy Campbell,https://mastodon.social/@Jessandtech,surveillance studies; privacy policy; AI; older adults; smart homes
 @rnavarre@mastodon.social,Rachel Navarre,https://mastodon.social/@rnavarre,Populism; Immigration Policy; Europe; US
 @alessandro_nai@mastodon.world,Alessandro Nai,https://mastodon.world/@alessandro_nai,political communication; political psychology; voting; persuasion; personality
@@ -211,8 +234,8 @@ Western Balkans
 @johank76@mastodon.nu,Johan Karlsson Schaffer,https://mastodon.nu/@johank76,Political theory; human rights; legal mobilisation; judicial politics; Scandinavia
 @mikecowburn@mastodon.online,Mike Cowburn,https://mastodon.online/@mikecowburn,Intra-party; party politics; candidate selection; elite communication
 @JohannesBlumenberg@fediscience.org,Johannes Blumenberg,https://fediscience.org/@JohannesBlumenberg,electoral behavior; political parties; stereotyping; party identification; Germany
-@maripuerta@mstdn.social,Maria Puerta Riera,https://mstdn.social/@maripuerta,Authoritarianism; Democratization; Latin America; Latinos in the USA
 @maripuerta@sciences.social,Maria Puerta Riera,https://sciences.social/@maripuerta,Authoritarianism; Democratization; Latin America; Latinos in the USA
+@maripuerta@mstdn.social,Maria Puerta Riera,https://mstdn.social/@maripuerta,Authoritarianism; Democratization; Latin America; Latinos in the USA
 @evanmckenzie@mastodon.social,Evan McKenzie,https://mastodon.social/@evanmckenzie,urban politics; law/courts; private government; condominium and homeowners associations
 @ShirRaviv@mastodon.social,Shir Raviv,https://mastodon.social/@ShirRaviv,Public opinion; experimental methods; AI governance; algorithmic decision making
 @TobiasLemke@mastodon.sdf.org,Tobias Lemke,https://mastodon.sdf.org/@TobiasLemke,International relations; nationalism; security; digital politics
@@ -586,7 +609,7 @@ Western Balkans
 @SerhatTutkal@fediscience.org,Serhat Tutkal,https://fediscience.org/@SerhatTutkal,Political violence; armed conflicts; political communication; racism; authoritarianism
 @SamCrawley@scholar.social,Sam Crawley,https://scholar.social/@SamCrawley,Public opinion on climate change; comparative politics; political behaviour
 @julianschuess@mastodon.online,Julian Schuessler,https://mastodon.online/@julianschuess,Methods
-@lookeastwards@scholar.social,Anselm Schmidt,https://scholar.social/@lookeastwards,Media and Agency in the War on Ukraine since 2014
+@ans@ukrainian.network,Anselm Schmidt,https://scholar.social/@lookeastwards,Agency and the Media in Russia's War on Ukraine; Area Studies in between Russia and the EU
 @le_rstelle@social.tchncs.de,Markus Hennig,https://social.tchncs.de/@le_rstelle,Political Theory; esp. Critical Theory; Western Marxism; Social Theories
 @colaresi@mastodon.social,Michael Colaresi,https://mastodon.social/@colaresi,Computational Social Science; Political Violence; Disinformation; Secrecy; Human Rights
 @peterlevine@mastodon.sdf.org,Peter Levine,https://mastodon.sdf.org/@peterlevine,
